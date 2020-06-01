@@ -58,21 +58,39 @@ namespace Счетчик
 
         private void button7_Click(object sender, EventArgs e)
         {
-            
+            h3 = 0.0;
+            m3 = 0.0;
+            s3 = 0.0;
+            time3.Text = "0 : 0 : 0";
+            x3 = 0.0;
+            Value4.Text = "0";
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            
+            h4 = 0.0;
+            m4 = 0.0;
+            s4 = 0.0;
+            time2.Text = "0 : 0 : 0";
+            x4 = 0.0;
+            Value3.Text = "0";
         }
         private void button5_Click(object sender, EventArgs e)
         {
-            
+            h2 = 0.0;
+            m2 = 0.0;
+            s2 = 0.0;
+            time1.Text = "0 : 0 : 0";
+            x2 = 0.0;
+            Value2.Text = "0";
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            timer1.Stop();
+            timer2.Stop();
+            timer3.Stop();
+            Value.Text = text1.Text;
         }
 
         private void textBox7_TextChanged(object sender, EventArgs e)
