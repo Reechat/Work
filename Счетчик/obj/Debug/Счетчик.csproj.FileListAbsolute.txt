@@ -8,3 +8,13 @@ C:\Users\Rechat\source\repos\Счетчик\Счетчик\bin\Debug\Счетч�
 C:\Users\Rechat\source\repos\Счетчик\Счетчик\bin\Debug\Счетчик.pdb
 C:\Users\Rechat\source\repos\Счетчик\Счетчик\obj\Debug\Счетчик.exe
 C:\Users\Rechat\source\repos\Счетчик\Счетчик\obj\Debug\Счетчик.pdb
+C:\Users\Rechat\source\repos\Счетчик\Work\Счетчик\bin\Debug\Счетчик.exe.config
+C:\Users\Rechat\source\repos\Счетчик\Work\Счетчик\bin\Debug\Счетчик.exe
+C:\Users\Rechat\source\repos\Счетчик\Work\Счетчик\bin\Debug\Счетчик.pdb
+C:\Users\Rechat\source\repos\Счетчик\Work\Счетчик\obj\Debug\Счетчик.csprojAssemblyReference.cache
+C:\Users\Rechat\source\repos\Счетчик\Work\Счетчик\obj\Debug\Счетчик.Form1.resources
+C:\Users\Rechat\source\repos\Счетчик\Work\Счетчик\obj\Debug\Счетчик.Properties.Resources.resources
+C:\Users\Rechat\source\repos\Счетчик\Work\Счетчик\obj\Debug\Счетчик.csproj.GenerateResource.cache
+C:\Users\Rechat\source\repos\Счетчик\Work\Счетчик\obj\Debug\Счетчик.csproj.CoreCompileInputs.cache
+C:\Users\Rechat\source\repos\Счетчик\Work\Счетчик\obj\Debug\Счетчик.exe
+C:\Users\Rechat\source\repos\Счетчик\Work\Счетчик\obj\Debug\Счетчик.pdb
