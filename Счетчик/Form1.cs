@@ -118,6 +118,16 @@ namespace Счетчик
                 m2 = 0.0;
                 ++h2;
             }
+            double num2 = Convert.ToDouble(Value.Text);
+            double num3 = Convert.ToDouble(Value2.Text);
+            double num4 = Convert.ToDouble(Value3.Text);
+            double num5 = Convert.ToDouble(Value4.Text);
+            z = num2;
+            c = num3;
+            v = num4;
+            b = num5;
+            Sum.Text = (z + c + v + b).ToString();
+            time1.Text = h2.ToString() + " : " + m2.ToString() + " : " + s2.ToString();
 
 
 
@@ -143,6 +153,16 @@ namespace Счетчик
                     m4 = 0.0;
                     ++h4;
                 }
+                double num2 = Convert.ToDouble(Value.Text);
+                double num3 = Convert.ToDouble(Value2.Text);
+                double num4 = Convert.ToDouble(Value3.Text);
+                double num5 = Convert.ToDouble(Value4.Text);
+                z = num2;
+                c = num3;
+                v = num4;
+                b = num5;
+                Sum.Text = (z + c + v + b).ToString();
+                time2.Text = h4.ToString() + " : " + m4.ToString() + " : " + s4.ToString();
 
             }
         }
@@ -166,7 +186,16 @@ namespace Счетчик
                 m3 = 0.0;
                 ++h3;
             }
-
+            double num2 = Convert.ToDouble(Value.Text);
+            double num3 = Convert.ToDouble(Value2.Text);
+            double num4 = Convert.ToDouble(Value3.Text);
+            double num5 = Convert.ToDouble(Value4.Text);
+            z = num2;
+            c = num3;
+            v = num4;
+            b = num5;
+            Sum.Text = (z + c + v + b).ToString();
+            time3.Text = h3.ToString() + " : " + m3.ToString() + " : " + s3.ToString();
         }
     }
 }
