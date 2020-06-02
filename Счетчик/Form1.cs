@@ -20,6 +20,23 @@ namespace Счетчик
 
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var Excel = new Microsoft.Office.Interop.Excel.Application();
+            var xlWB = Excel.Workbooks.Open(@"C:\test\test.xlsx");
+            var xlSht = xlWB.Worksheets[1];
+            int iLastRow = xlSht.Cells[xlSht.Rows.Count, "C"].End[Microsoft.Office.Interop.Excel.XlDirection.xlUp].Row + 1;
+            xlSht.Cells[iLastRow, 3] = Sum.Text;
+            int iLastR = xlSht.Cells[xlSht.Rows.Count, "B"].End[Microsoft.Office.Interop.Excel.XlDirection.xlUp].Row + 1;
+            xlSht.Cells[iLastR, 2] = date.Text;
+            Excel.Visible = true;
+        }
+
+        private void Value2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void label4_Click(object sender, EventArgs e)
         {
 
@@ -129,7 +146,8 @@ namespace Счетчик
             if (s2 > 0.0)
             {
                 x2 += num1 / 3600.0;
-                Value2.Text = x2.ToString();
+                Value2.Text = String.Format("{0:0.00}", x2);
+                 
             }
             if (m2 == 60.0)
             {
@@ -146,9 +164,6 @@ namespace Счетчик
             b = num5;
             Sum.Text = (z + c + v + b).ToString();
             time1.Text = h2.ToString() + " : " + m2.ToString() + " : " + s2.ToString();
-
-
-
         }
 
         private void timer2_Tick(object sender, EventArgs e)
@@ -164,7 +179,7 @@ namespace Счетчик
                 if (s4 > 0.0)
                 {
                     x4 += num1 / 3600.0;
-                    Value3.Text = Convert.ToString(x4);
+                    Value3.Text = String.Format("{0:0.00}", x4);
                 }
                 if (m4 == 60.0)
                 {
@@ -197,7 +212,7 @@ namespace Счетчик
             if (s3 > 0.0)
             {
                 x3 += num1 / 3600.0;
-                Value4.Text = x3.ToString();
+                Value4.Text = String.Format("{0:0.00}", x3);
             }
             if (m3 == 60.0)
             {

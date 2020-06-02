@@ -18,3 +18,4 @@ C:\Users\Rechat\source\repos\Счетчик\Work\Счетчик\obj\Debug\Сче
 C:\Users\Rechat\source\repos\Счетчик\Work\Счетчик\obj\Debug\Счетчик.csproj.CoreCompileInputs.cache
 C:\Users\Rechat\source\repos\Счетчик\Work\Счетчик\obj\Debug\Счетчик.exe
 C:\Users\Rechat\source\repos\Счетчик\Work\Счетчик\obj\Debug\Счетчик.pdb
+C:\Users\Rechat\source\repos\Счетчик\Work\Счетчик\obj\Debug\Счетчик.csproj.ResolveComReference.cache
